@@ -59,7 +59,7 @@ header h2 {
 }
 
 .contents a:hover {
-    background: #c24412;
+    background: #cf683f;
     transform: translateY(-3px);
 }
 
@@ -107,6 +107,27 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.member img {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member p {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #34495E;
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
